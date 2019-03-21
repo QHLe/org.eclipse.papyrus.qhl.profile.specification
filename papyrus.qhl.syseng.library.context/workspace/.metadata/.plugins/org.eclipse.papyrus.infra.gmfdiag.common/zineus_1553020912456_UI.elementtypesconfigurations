@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmi:id="_qamTkUp2Eem5--CDWpS5Hw" identifier="zineus_1553020912456_UI" name="zineus_1553020912456_UI" metamodelNsURI="zineus_1553020912456_UI">
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_xJSZIUp2Eem5--CDWpS5Hw" identifier="zineus_1553020912456.clazz.tool.class_1553020957606_Class_ComponentNestedClassifierLabel" name="Class" hint="Class_ComponentNestedClassifierLabel" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="zineus_1553020912456_Semantic.elementtypesconfigurations#_xJSZIEp2Eem5--CDWpS5Hw"/>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_ComponentNestedClassifierLabel"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_xJSZIkp2Eem5--CDWpS5Hw" identifier="zineus_1553020912456.clazz.tool.class_1553020957606_Class_InterfaceNestedClassifierLabel" name="Class" hint="Class_InterfaceNestedClassifierLabel" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="zineus_1553020912456_Semantic.elementtypesconfigurations#_xJSZIEp2Eem5--CDWpS5Hw"/>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_InterfaceNestedClassifierLabel"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_xJSZI0p2Eem5--CDWpS5Hw" identifier="zineus_1553020912456.clazz.tool.class_1553020957606_Class_Shape_CN" name="Class" hint="Class_Shape_CN" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="zineus_1553020912456_Semantic.elementtypesconfigurations#_xJSZIEp2Eem5--CDWpS5Hw"/>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_Shape_CN"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_xJSZJEp2Eem5--CDWpS5Hw" identifier="zineus_1553020912456.clazz.tool.class_1553020957606_Class_ClassNestedClassifierLabel" name="Class" hint="Class_ClassNestedClassifierLabel" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="zineus_1553020912456_Semantic.elementtypesconfigurations#_xJSZIEp2Eem5--CDWpS5Hw"/>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_ClassNestedClassifierLabel"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_xJSZJUp2Eem5--CDWpS5Hw" identifier="zineus_1553020912456.clazz.tool.class_1553020957606_Class_Shape" name="Class" hint="Class_Shape" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="zineus_1553020912456_Semantic.elementtypesconfigurations#_xJSZIEp2Eem5--CDWpS5Hw"/>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_Shape"/>
+  </elementTypeConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>

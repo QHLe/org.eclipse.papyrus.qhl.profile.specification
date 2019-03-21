@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paletteconfiguration:PaletteConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.8" id="zineus_1553020912456" label="test_palette">
+  <drawerConfigurations xmi:type="paletteconfiguration:DrawerConfiguration" id="Default_1553020912456" label="test_profile">
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.class_1553020957606" label="Class" description="Create a new Class" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Class.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="zineus_1553020912456_UI.elementtypesconfigurations#_xJSZIUp2Eem5--CDWpS5Hw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="zineus_1553020912456_UI.elementtypesconfigurations#_xJSZIkp2Eem5--CDWpS5Hw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="zineus_1553020912456_UI.elementtypesconfigurations#_xJSZI0p2Eem5--CDWpS5Hw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="zineus_1553020912456_UI.elementtypesconfigurations#_xJSZJEp2Eem5--CDWpS5Hw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="zineus_1553020912456_UI.elementtypesconfigurations#_xJSZJUp2Eem5--CDWpS5Hw"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+  </drawerConfigurations>
+</paletteconfiguration:PaletteConfiguration>

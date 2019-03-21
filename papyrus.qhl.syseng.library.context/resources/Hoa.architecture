@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architecture:ArchitectureDomain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:architecture="http://www.eclipse.org/papyrus/infra/core/architecture" xmlns:gmfdiagrepresentation="http://www.eclipse.org/papyrus/infra/gmfdiag/representation" xmi:id="_o1y8IEp6Eeml1JxkDpftcg" id="hoa.domain.firstdomain" name="Hoa's Domain">
+  <stakeholders xmi:type="architecture:Stakeholder" xmi:id="_v1FNAEp7Eeml1JxkDpftcg" id="hoa.stakeholder.hoa" name="Hoa" concerns="_7Xh8gEp7Eeml1JxkDpftcg"/>
+  <concerns xmi:type="architecture:Concern" xmi:id="_7Xh8gEp7Eeml1JxkDpftcg" id="hoa.concern.systemarchitect" name="System architect"/>
+  <contexts xmi:type="architecture:ArchitectureFramework" xmi:id="_ER5PcEp8Eeml1JxkDpftcg" id="papyrus.qhl.syseng.library.framework.Someframework" name="Hoa's Framework" creationCommandClass="papyrus.qhl.syseng.library.context.ArchModel_ModelCreationCommand">
+    <viewpoints xmi:type="architecture:ArchitectureViewpoint" xmi:id="_XcuFkEp8Eeml1JxkDpftcg" id="hoa.viewpoint.firstviewpoint" name="Hoa's viewpoint" representationKinds="_dfz3IEqBEeml1JxkDpftcg"/>
+  </contexts>
+  <contexts xmi:type="architecture:ArchitectureDescriptionLanguage" xmi:id="_R4SaYEqBEeml1JxkDpftcg" id="hoa.DMSL.systemdescription" name="System Description Language">
+    <representationKinds xmi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_dfz3IEqBEeml1JxkDpftcg" id="hoa.diagram.systemfunctiondescription" name="System Function description"/>
+  </contexts>
+</architecture:ArchitectureDomain>

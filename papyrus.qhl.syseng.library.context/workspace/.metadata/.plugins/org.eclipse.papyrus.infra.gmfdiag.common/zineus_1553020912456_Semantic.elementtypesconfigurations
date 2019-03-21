@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:applystereotypeadvice="http://www.eclipse.org/papyrus/uml/types/applystereotypeadvice/1.1" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmi:id="_qamTkEp2Eem5--CDWpS5Hw" identifier="zineus_1553020912456_Semantic" name="zineus_1553020912456_Semantic" metamodelNsURI="zineus_1553020912456_Semantic">
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_xJSZIEp2Eem5--CDWpS5Hw" identifier="zineus_1553020912456.clazz.tool.class_1553020957606" name="Class" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_ComponentNestedClassifierLabel"/>
+  </elementTypeConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_PR7nsEp3Eem5--CDWpS5Hw" identifier="zineus_1553020912456.clazz.tool.class_1553020957606_1553021159851" target="_xJSZIEp2Eem5--CDWpS5Hw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_Ppmg0Ep3Eem5--CDWpS5Hw" stereotypeQualifiedName="sampleProfile::test_block" updateName="true">
+      <requiredProfiles>sampleProfile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>

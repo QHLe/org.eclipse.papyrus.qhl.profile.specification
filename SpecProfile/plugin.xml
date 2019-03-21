@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap:/model/"
+            target="platform:/plugin/papyrus.qhl.syseng.library.profile.Specification/model/">
+      </mapping>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
+      <profile
+            name="QHL Specification "
+            path="pathmap:/model/Specification.profile.uml">
+      </profile>
+   </extension>
+
+</plugin>

@@ -9,7 +9,7 @@ import org.eclipse.uml2.uml.Package;
 import org.eclipse.uml2.uml.Profile;
 import org.eclipse.uml2.uml.UMLFactory;
 
-import papyrus.qhl.syseng.library.profile.Specification.ProfileResourceSpecification;
+import papyrus.qhl.syseng.library.profile.SysEngineering.ProfileResourceSpecification;
 
 public class ArchModel_ModelCreationCommand extends ModelCreationCommandBase {
 
@@ -38,6 +38,10 @@ public class ArchModel_ModelCreationCommand extends ModelCreationCommandBase {
 		super.initializeModel(owner);
 		// Retrieve Library profile and apply it
 		Package packageOwner = (Package) owner;
+		Profile SysArchProfile = (Profile) PackageUtil.loadPackage(URI.createURI(ProfileResourceSysArch.PROFILE_PATH), owner.eResource().getResourceSet());
+		if (SysArchProfile != null) {
+			PackageUtil.applyProfile(packageOwner, SysArchProfile, true);
+		}
 		Profile SpecProfile = (Profile) PackageUtil.loadPackage(URI.createURI(ProfileResourceSpecification.PROFILE_PATH), owner.eResource().getResourceSet());
 		if (SpecProfile != null) {
 			PackageUtil.applyProfile(packageOwner, SpecProfile, true);

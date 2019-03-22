@@ -15,5 +15,12 @@
             path="pathmap:/model/Specification.profile.uml">
       </profile>
    </extension>
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLLibrary">
+      <library
+            name="SysArchitect"
+            path="pathmap:/model/SysArchitect.profile.uml">
+      </library>
+   </extension>
 
 </plugin>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_vJvUgEztEemnZrM2Ky2l-g" name="SysArchitect" metaclassReference="_7W1jgEztEemnZrM2Ky2l-g">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VLvE8EzuEemnZrM2Ky2l-g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_VLvsAEzuEemnZrM2Ky2l-g" name="SysArchitect" nsURI="http:///schemas/SysArchitect/_VLsosEzuEemnZrM2Ky2l-g/0" nsPrefix="SysArchitect">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VLwTEUzuEemnZrM2Ky2l-g" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLwTEkzuEemnZrM2Ky2l-g" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLwTE0zuEemnZrM2Ky2l-g" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLwTFEzuEemnZrM2Ky2l-g" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLwTFUzuEemnZrM2Ky2l-g" key="Date" value="2019-03-22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLwTFkzuEemnZrM2Ky2l-g" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_VLvsAUzuEemnZrM2Ky2l-g" name="Function">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VLvsAkzuEemnZrM2Ky2l-g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8OarwEztEemnZrM2Ky2l-g"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_VLvsA0zuEemnZrM2Ky2l-g" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_VLvsBUzuEemnZrM2Ky2l-g" name="MonitoringFunc" eSuperTypes="_VLvsAUzuEemnZrM2Ky2l-g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VLvsBkzuEemnZrM2Ky2l-g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-_co8EztEemnZrM2Ky2l-g">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLvsB0zuEemnZrM2Ky2l-g" key="originalName" value="Monitoring Func"/>
+        </eAnnotations>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_VLvsCUzuEemnZrM2Ky2l-g" name="ProtectionFunc" eSuperTypes="_VLvsAUzuEemnZrM2Ky2l-g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VLvsCkzuEemnZrM2Ky2l-g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_B5sMgEzuEemnZrM2Ky2l-g">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLvsC0zuEemnZrM2Ky2l-g" key="originalName" value="Protection Func"/>
+        </eAnnotations>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_VLvsDUzuEemnZrM2Ky2l-g" name="SafetyFunc" eSuperTypes="_VLvsAUzuEemnZrM2Ky2l-g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VLvsDkzuEemnZrM2Ky2l-g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DNR7UEzuEemnZrM2Ky2l-g">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLvsD0zuEemnZrM2Ky2l-g" key="originalName" value="Safety Func"/>
+        </eAnnotations>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_VLvsEUzuEemnZrM2Ky2l-g" name="SystemFunc" eSuperTypes="_VLvsAUzuEemnZrM2Ky2l-g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VLvsEkzuEemnZrM2Ky2l-g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_HJIF0EzuEemnZrM2Ky2l-g">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLvsE0zuEemnZrM2Ky2l-g" key="originalName" value="System Func"/>
+        </eAnnotations>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_VLvsFUzuEemnZrM2Ky2l-g" name="SupportFunc" eSuperTypes="_VLvsAUzuEemnZrM2Ky2l-g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VLvsFkzuEemnZrM2Ky2l-g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KMDEQEzuEemnZrM2Ky2l-g">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLvsF0zuEemnZrM2Ky2l-g" key="originalName" value="Support Func"/>
+        </eAnnotations>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_7W1jgEztEemnZrM2Ky2l-g" alias="Class">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_vYjMkEztEemnZrM2Ky2l-g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_vYlBwEztEemnZrM2Ky2l-g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_8OarwEztEemnZrM2Ky2l-g" name="Function">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8xeVgEztEemnZrM2Ky2l-g" name="base_Class" association="_8xaEEEztEemnZrM2Ky2l-g">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8xeVgUztEemnZrM2Ky2l-g"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_8xaEEEztEemnZrM2Ky2l-g" name="E_Function_Class1" memberEnd="_8xdHYEztEemnZrM2Ky2l-g _8xeVgEztEemnZrM2Ky2l-g">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_8xdHYEztEemnZrM2Ky2l-g" name="extension_Function" type="_8OarwEztEemnZrM2Ky2l-g" aggregation="composite" association="_8xaEEEztEemnZrM2Ky2l-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_-_co8EztEemnZrM2Ky2l-g" name="Monitoring Func">
+    <generalization xmi:type="uml:Generalization" xmi:id="_RV6p8EzuEemnZrM2Ky2l-g" general="_8OarwEztEemnZrM2Ky2l-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_B5sMgEzuEemnZrM2Ky2l-g" name="Protection Func">
+    <generalization xmi:type="uml:Generalization" xmi:id="_R7n_EEzuEemnZrM2Ky2l-g" general="_8OarwEztEemnZrM2Ky2l-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_DNR7UEzuEemnZrM2Ky2l-g" name="Safety Func">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Sc-_sEzuEemnZrM2Ky2l-g" general="_8OarwEztEemnZrM2Ky2l-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_HJIF0EzuEemnZrM2Ky2l-g" name="System Func">
+    <generalization xmi:type="uml:Generalization" xmi:id="_S8lFwEzuEemnZrM2Ky2l-g" general="_8OarwEztEemnZrM2Ky2l-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_KMDEQEzuEemnZrM2Ky2l-g" name="Support Func">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Th5ZUEzuEemnZrM2Ky2l-g" general="_8OarwEztEemnZrM2Ky2l-g"/>
+  </packagedElement>
+</uml:Profile>

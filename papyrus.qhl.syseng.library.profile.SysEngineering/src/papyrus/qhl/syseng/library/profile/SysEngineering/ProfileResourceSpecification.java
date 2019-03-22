@@ -1,4 +1,4 @@
-package papyrus.qhl.syseng.library.profile.Specification;
+package papyrus.qhl.syseng.library.profile.SysEngineering;
 
 public class ProfileResourceSpecification {
 	

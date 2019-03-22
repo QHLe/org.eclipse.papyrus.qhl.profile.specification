@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: SpecProfile
-Bundle-SymbolicName: papyrus.qhl.syseng.library.profile.Specification;singleton:=true
+Bundle-SymbolicName: papyrus.qhl.syseng.library.profile.SysEngineering;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-10
 Require-Bundle: org.eclipse.papyrus.uml.extensionpoints;bundle-version="1.3.0"

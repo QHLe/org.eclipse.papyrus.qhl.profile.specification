@@ -5,7 +5,7 @@
          point="org.eclipse.emf.ecore.uri_mapping">
       <mapping
             source="pathmap:/model/"
-            target="platform:/plugin/papyrus.qhl.syseng.library.profile.Specification/model/">
+            target="platform:/plugin/papyrus.qhl.syseng.library.profile.SysEngineering/model/">
       </mapping>
    </extension>
    <extension
@@ -14,13 +14,10 @@
             name="QHL Specification "
             path="pathmap:/model/Specification.profile.uml">
       </profile>
-   </extension>
-   <extension
-         point="org.eclipse.papyrus.uml.extensionpoints.UMLLibrary">
-      <library
-            name="SysArchitect"
+      <profile
+            name="QHL SysArchitect"
             path="pathmap:/model/SysArchitect.profile.uml">
-      </library>
+      </profile>
    </extension>
 
 </plugin>

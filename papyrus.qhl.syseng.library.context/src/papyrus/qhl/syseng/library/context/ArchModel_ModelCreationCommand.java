@@ -10,6 +10,7 @@ import org.eclipse.uml2.uml.Profile;
 import org.eclipse.uml2.uml.UMLFactory;
 
 import papyrus.qhl.syseng.library.profile.SysEngineering.ProfileResourceSpecification;
+import papyrus.qhl.syseng.library.profile.SysEngineering.ProfileResourceSysArch;
 
 public class ArchModel_ModelCreationCommand extends ModelCreationCommandBase {
 
